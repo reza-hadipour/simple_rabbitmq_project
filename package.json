@@ -1,0 +1,17 @@
+{
+  "name": "simple_rabbitmq_project",
+  "version": "1.0.0",
+  "description": "simple rabbitMQ project",
+  "main": "index.js",
+  "scripts": {
+    "Start": "node --watch -env--file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Reza Hadipour",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.19.2"
+  }
+}
